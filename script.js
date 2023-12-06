@@ -97,7 +97,7 @@ function main(currentTime) {
   }
   window.requestAnimationFrame(main); // Start the animation loop
   const secondsSinceLastRender = (currentTime - lastRenderTime) / 1000; // Seconds since last render
-  // If Seconds since last render is less than 1 / Snake_Speed don't gp through the rest of the loop
+  // If Seconds since last render is less than 1 / Snake_Speed don't go through the rest of the loop
   if (secondsSinceLastRender < 1 / SNAKE_SPEED) return;
 
 
